@@ -13,3 +13,12 @@
 .font-title {
     font-family: 'Alfa Slab One', sans-serif;
 }
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-right: 8px; /* Adjust as needed */
+}
