@@ -1,41 +1,21 @@
 import React from 'react';
 import Logo from '/icologo.png';
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className="mt-5 mx-auto">
-            {/* <footer className="footer p-10  border-t text-base-content">
-                <nav>
-                    <header className="footer-title">Services</header>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
-                </nav>
-                <nav>
-                    <header className="footer-title">Company</header>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
-                </nav>
-                <nav>
-                    <header className="footer-title">Legal</header>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
-                </nav>
-            </footer> */}
             <footer className="footer px-10 py-4 border-t   border-gray-400 text-base-content  md:flex-row flex-col flex justify-between">
                 <aside className="items-center grid-flow-col">
                     <img src={Logo} className="w-8" alt="" />
                     <p className='font-bold'>© 2024 Resilient Slope LLC. All rights reserved.</p>
                 </aside>
                 <div>
-                    <div className="flex gap-4 text-center md:gap-8 text-blue-500 flex-wrap">
-                        <p className="hover:underline cursor-pointer">Terms of use</p>
-                        <p className="hover:underline cursor-pointer">Privacy policy</p>
-                        <p className="hover:underline cursor-pointer">Cookie policy</p>
-                        <p className="hover:underline cursor-pointer">Contact Us</p>
+                    <div className="flex gap-4 text-center md:gap-8 text-sky-500 flex-wrap">
+                        <p className="hover:underline cursor-pointer"><NavLink to="/termsofuse">Terms of use</NavLink></p>
+                        <p className="hover:underline cursor-pointer"><NavLink to="/privacypolicy">Privacy policy</NavLink></p>
+                        <p className="hover:underline cursor-pointer"><NavLink to="/cookiepolicy">Cookie policy</NavLink></p>
+                        {/* <p className="hover:underline cursor-pointer"><NavLink to="/projects">Projects</NavLink></p> */}
+                        <p className="hover:underline cursor-pointer"><NavLink to="/contact">Contact Us</NavLink></p>
                     </div>
                 </div>
                 <nav className="md:place-self-center md:justify-self-end hidden md:block">

@@ -14,6 +14,11 @@ import Contact from './pages/Contact';
 import Services from './pages/Services​';
 import VetiverGrass from './pages/VetiverGrass​';
 import RecycledPlasticPin from './pages/RecycledPlasticPin​';
+import Termsofuse from './pages/seopage/Termsofuse';
+import Privacypolicy from './pages/seopage/Privacypolicy';
+import Cookiepolicy from './pages/seopage/Cookiepolicy';
+import Projects from './pages/Projects';
+import DetailsProjects from './pages/DetailsProjects';
 
 
 const router = createBrowserRouter([
@@ -46,7 +51,31 @@ const router = createBrowserRouter([
         path:'/recycledplastic',
         element:<RecycledPlasticPin></RecycledPlasticPin>
         
-      },      
+      },   
+      {
+        path:'/termsofuse',
+        element:<Termsofuse></Termsofuse>
+        
+      },  
+      {
+        path:'/privacypolicy',
+        element:<Privacypolicy></Privacypolicy>
+        
+      },  
+      {
+        path:'/cookiepolicy',
+        element:<Cookiepolicy></Cookiepolicy>
+        
+      },
+      {
+        path:'/projects',
+        element:<Projects></Projects>
+        
+      },
+      {
+        path:'projects/:id',
+        element:<DetailsProjects></DetailsProjects>
+      }    
     ]
   },
 

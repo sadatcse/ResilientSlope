@@ -1,0 +1,133 @@
+[
+    {
+      "projectId": 1,
+      "title": "Advanced Slope Failure Investigations",
+      "location": "I220, Jackson, Mississippi",
+      "description": "Experience the ultimate luxury living with breathtaking ocean views in this stunning beach house located in Malibu.",
+      "shortDescription": "Luxury beach house with breathtaking ocean views in Malibu, California.",
+      "images": [
+        { "imageUrl": "https://i.ibb.co/gJJghFk/1.jpg", "caption": "Failure of the Highway Slope along I220s in Jackson, MS" },
+        { "imageUrl": "https://i.ibb.co/nm1gfs2/2.png", "caption": "3D LiDAR Point Cloud to Monitor Slope Movement" },
+        { "imageUrl": "https://i.ibb.co/02NLvMG/3.png", "caption": "3D  ERI results of thee Failed Highway Slope" }
+      ],
+      "descriptionArray": [
+        "Multiple Highway slope has been investigated using Advanced landslide investigation method using ERI, LiDAR and Drone Technology",
+        "The extent and depth of the failure was determined using LiDAR point cloud.",
+        "The moisture variations and release of pore water pressure was evaluated using 3D ERI profile."
+      ]
+    },
+    {
+      "projectId": 4,
+      "title": "Stabilization of Shallow Slope Failure",
+      "location": "Dallas, Texas",
+      "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+      "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+      "images": [
+        { "imageUrl": "https://i.ibb.co/6Dq87vN/1.jpg", "caption": "Condition of the Slope Before Repair" },
+        { "imageUrl": "https://i.ibb.co/frwt29V/2.jpg", "caption": "Condition of the Slope Before Repair" },
+        { "imageUrl": "https://i.ibb.co/G5BgSS3/2.png", "caption": "Design of the Slope Repair" },
+        { "imageUrl": "https://i.ibb.co/2nptW0g/3.png", "caption": "ERI Testing for Site Investigation" },
+        { "imageUrl": "https://i.ibb.co/Y2X0kQR/4.jpg", "caption": "Slope Repair using Recycled Plastic Pin" }
+      ],
+      "descriptionArray": [
+        "A total of 450 RPP was used for stabilizing the slopes.",
+        "The installation of the RPP took 5 days.",
+        "The Project was completed in 2014. Over the last 10 years, no sign of slope movement was observed."
+        
+      ]
+    },
+    {
+      "projectId": 5,
+      "title": "Strengthening of Slopes Using RPP to Reduce Wall Height",
+      "location": "Arlington, Texas",
+      "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+      "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+      "images": [
+        { "imageUrl": "https://i.ibb.co/1q8N56C/1.png", "caption": "RPP Layout" },
+        { "imageUrl": "https://i.ibb.co/XyDghmw/2.png", "caption": "Installation of RPP in 2:1 Slope" }
+
+      ],
+      "descriptionArray": [
+        "RPP has been utilized to steepen slopes to save the cost of expensive retaining wall system. Slope inclination changed from 4H:1V to 2H: 1V.",
+        "Height of the retaining wall reduced from 12 ft. to 5 ft." ,
+        "More than 2000 plastic pin was installed in 15 days.",
+        "Overall $500k cost savings was achieved." 
+      ]
+    },
+    {
+      "projectId": 2,
+      "title": "Investigation of Seepage Location in Levee Section",
+      "location": "Houston, Texas",
+      "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+      "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+      "images": [
+        { "imageUrl": "https://i.ibb.co/PT0nr16/1.png", "caption": "" },
+        { "imageUrl": "https://i.ibb.co/34fHYFy/2.png", "caption": "Layout of the ERI lines at the Top of Levee Section" },
+        { "imageUrl": "https://i.ibb.co/hMvQbfP/3.png", "caption": "2D ERI Test Results" }
+      ],
+      "descriptionArray": [
+        "ERI results are effectively utilized to determine the locations of the Seepage Locations within the levee sections.",
+        "Confirmatory Soil Drilling was performed based on ERI test results."
+      ]
+    },
+    {
+        "projectId": 3,
+        "title": "Piloting of Sustainable Slope Stabilization Using Recycled Plastic Pin",
+        "location": "Dallas, Texas",
+        "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+        "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+        "images": [
+          
+          { "imageUrl": "https://i.ibb.co/1dbcQr6/Picture1.jpg", "caption": "Condition of the Slope Before Repair " },
+          { "imageUrl": "https://i.ibb.co/Qkf7CJP/1.jpg", "caption": "Condition of the Slope Before Repair " },
+          { "imageUrl": "https://i.ibb.co/WnFQVrn/2.png", "caption": "ERI Test at the Slope" },
+          { "imageUrl": "https://i.ibb.co/sPGmb8j/3.png", "caption": "Design of Slope Repair" },
+          { "imageUrl": "https://i.ibb.co/31vXFfJ/4.jpg", "caption": "Installation of RPP" }
+        ],
+        "descriptionArray": [
+          "ERI results are effectively utilized to determine the locations of the Seepage Locations within the levee sections.",
+          "Confirmatory Soil Drilling was performed based on ERI test results."
+        ]
+      },
+   
+
+      {
+        "projectId": 6,
+        "title": "Strengthening of Slopes Using Recycled Plastic Pin",
+        "location": "Dallas, Texas",
+        "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+        "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+        "images": [
+          { "imageUrl": "https://i.ibb.co/smn099G/1.png", "caption": "Distance vs Elevation" },
+          { "imageUrl": "https://i.ibb.co/gWnzZpD/2.jpg", "caption": "Design of Slope Repair For Deeper Slides" },
+          { "imageUrl": "https://i.ibb.co/bsZp9mv/3.jpg", "caption": "Installation of Bottom Layer of RPP" }
+        ],
+        "descriptionArray": [
+          "Several Deep Seated Slope Failure has been repaired using Recycled Plastic Pin",
+          "Slope inclination changed from 3H:1V to 2H: 1V.",
+          "Double Layer Pin has been utilized for the Deep Seated Slope Repair.",
+          "The slope repair duration was 2 weeks.",
+          "A minimal soil dressing and repair work was "
+        ]
+      },
+      {
+        "projectId": 7,
+        "title": "Strengthening of Slopes Using Recycled Plastic Pin",
+        "location": "Dallas, Texas",
+        "description": "Escape to this cozy mountain retreat nestled in the heart of Aspen, Colorado. Enjoy skiing, hiking, and relaxation in this beautiful cabin.",
+        "shortDescription": "Cozy mountain retreat in Aspen, Colorado.",
+        "images": [
+          { "imageUrl": "https://i.ibb.co/nLyQVfx/Picture1.png", "caption": "Layout of the RPP at top of Retaining Wall" },
+          { "imageUrl": "https://i.ibb.co/XXhNYv3/2.jpg", "caption": "Installation of RPP on Critical Slope using Light Weight Rig" },
+          { "imageUrl": "https://i.ibb.co/smm22GP/3.jpg", "caption": "" }
+        ],
+        "descriptionArray": [
+          "A slope on top of Gravity wall was repaired using RPP.",
+          "The soil on top of the wall was observed to be soft.",
+          "The slope was facing sloughing movement on top of retaining wall.          ",
+          "A lightweight rig was used to install the RPP on top of the Retaining Wall.",
+          "The entire slope was repaired in 4 days."
+
+        ]
+      }
+  ]

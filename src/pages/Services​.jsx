@@ -57,7 +57,7 @@ const Services= () => {
                 {data.map((service, index) => (
                     <div data-aos="zoom-in-up" data-aos-offset={service.start} data-aos-easing="ease-out" data-aos-duration={service.end} key={index} className="card bg-base-100 shadow-xl border border-inherit">
                         <div className="card-body">
-                            <h2 className="text-blue-500 font-Georgia text-2xl card-title hover:font-serif">{service.title}</h2>
+                            <h2 className="text-sky-500 font-Georgia text-2xl card-title hover:font-serif">{service.title}</h2>
                             <ul className="space-y-2">
                                 {service.category_array.map((category, i) => (
                                      <li key={i}><span className="dot"></span>{category}</li>
