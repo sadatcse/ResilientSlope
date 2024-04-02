@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Title from '../components/Title/Title';
 import { Helmet } from 'react-helmet-async';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import emailjs from '@emailjs/browser';
 
 import Logo from "/logo3.png";
 import Swal from 'sweetalert2';
 const Contact = () => {
+  const form = useRef();
     useEffect(() => {
-        AOS.init(); // Initialize AOS when component mounts
+        AOS.init(); 
     }, []);
     const [formData, setFormData] = useState({
         name: '',
@@ -22,17 +24,34 @@ const Contact = () => {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission, e.g., send data to backend
+        
         console.log(formData);
-        // Reset form fields after submission
+        emailjs
+          .sendForm('service_fsxxptf', 'template_ahg0h27', form.current, {
+            publicKey: 'CWA1iWMiG_UoyQ1ha',
+          })
+          .then(
+            () => {
+              Swal.fire({
+                title: 'Message Sent!',
+                text: 'Thank you for reaching out to us. We will get back to you soon.',
+                icon: 'success',
+                confirmButtonText: 'OK'
+              });
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              Swal.fire({
+                title: 'Message Sending Failed!',
+                text: `Oops... Something went wrong. ${error.text}`,
+                icon: 'error',
+                confirmButtonText: 'OK'
+              });
+              console.log('FAILED...', error.text);
+            },
+          );
+        
         setFormData({ name: '', email: '', message: '' });
-        // Show confirmation message
-        Swal.fire({
-          title: 'Message Sent!',
-          text: 'Thank you for reaching out to us. We will get back to you soon.',
-          icon: 'success',
-          confirmButtonText: 'OK'
-        });
       };
     return (
         <div>
@@ -47,7 +66,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div data-aos="slide-left" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1200">
           <h2 className="text-3xl font-semibold mb-4 text-ce">Send us a Message</h2>
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={handleSubmit}>
             <div className="mb-4">
               <label className="block text-gray-700 font-semibold mb-2" htmlFor="name">
                 Name
