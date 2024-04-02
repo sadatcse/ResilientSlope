@@ -8,6 +8,7 @@ import emailjs from '@emailjs/browser';
 import Logo from "/logo3.png";
 import Swal from 'sweetalert2';
 const Contact = () => {
+  
   const form = useRef();
     useEffect(() => {
         AOS.init(); 
@@ -27,31 +28,27 @@ const Contact = () => {
         
         console.log(formData);
         emailjs
-          .sendForm('service_fsxxptf', 'template_ahg0h27', form.current, {
-            publicKey: 'CWA1iWMiG_UoyQ1ha',
+          .sendForm(import.meta.env.VITE_service, import.meta.env.VITE_tamplet, form.current, {
+            publicKey: import.meta.env.VITE_apiKey,
           })
           .then(
             () => {
-              Swal.fire({
-                title: 'Message Sent!',
-                text: 'Thank you for reaching out to us. We will get back to you soon.',
-                icon: 'success',
-                confirmButtonText: 'OK'
-              });
+
               console.log('SUCCESS!');
             },
             (error) => {
-              Swal.fire({
-                title: 'Message Sending Failed!',
-                text: `Oops... Something went wrong. ${error.text}`,
-                icon: 'error',
-                confirmButtonText: 'OK'
-              });
+
               console.log('FAILED...', error.text);
             },
           );
         
         setFormData({ name: '', email: '', message: '' });
+        Swal.fire({
+          title: 'Message Sent!',
+          text: 'Thank you for reaching out to us. We will get back to you soon.',
+          icon: 'success',
+          confirmButtonText: 'OK'
+        });
       };
     return (
         <div>
