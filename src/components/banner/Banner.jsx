@@ -2,11 +2,12 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-import imageUrl from "/banner.jpg";
-
 const Banner = () => {
+
+  const imageUrl ="https://i.ibb.co/WvFQ3Vh/banner2.jpg";
+
     useEffect(() => {
-        AOS.init(); // Initialize AOS when component mounts
+        AOS.init();
     }, []);
 
     const bannerStyle = {

@@ -17,7 +17,7 @@ const Services= () => {
             "Erosion Control of Slopes using Vetiver Grass",
             "Stabilization of Marginal/Steep Slopes using Recycled Plastic Pin or Vetiver Grass"
           ],
-          image_url: "https://i.ibb.co/yF0zS81/landslide.jpg"
+          image_url: "https://i.ibb.co/4WBNBMX/20201216-142724.jpg"
         },
         {
             title: "Design and Analysis",
@@ -42,7 +42,7 @@ const Services= () => {
              "LiDAR Imaging",
             "Drone Imaging"
             ],
-            image_url: "https://i.ibb.co/8KNmFzg/Testing.png"
+            image_url: "https://i.ibb.co/t4Lqw6M/Website.jpg"
           }
       ];
 
