@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className="mt-5 mx-auto">
-            <footer className="footer px-10 py-4 border-t   border-gray-400 text-base-content  md:flex-row flex-col flex justify-between">
+            <footer className="footer px-10 py-4 border-t   border-slate-100	 text-base-content  md:flex-row flex-col flex justify-between">
                 <aside className="items-center grid-flow-col">
                     <img src={Logo} className="w-8" alt="" />
                     <p className='font-bold'>© 2024 Resilient Slope LLC. All rights reserved.</p>

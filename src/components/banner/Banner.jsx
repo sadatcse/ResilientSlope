@@ -18,7 +18,7 @@ const Banner = () => {
         <div data-aos="fade-zoom-in" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1200" className="rounded-lg hero min-h-screen" style={bannerStyle}>
               <div className="hero-overlay bg-opacity-10"></div>
   <div className="hero-content text-center text-neutral-content">
-    <div data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-out-quart" data-aos-duration="2400" className="text-center  hero-overlay bg-opacity-40 p-8 rounded-md">
+    <div className="text-center  hero-overlay bg-opacity-40 p-8 rounded-md">
       <h1 className="mb-5 text-5xl font-bold">Resilient Slope</h1>
       <p className="mb-5 text-3xl">SUSTAINABLE AND CLIMATE RESILIENT SLOPE STABILIZATION</p>
     </div>
