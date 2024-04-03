@@ -31,13 +31,20 @@ const VetiverGrass = () => {
     </div>
 
     <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-sky-500 mb-4">Advantages of Slope Repair Using Recycled Plastic Pin </h2>
+        <h2 className="text-2xl font-bold text-sky-500 mb-4">Advantages of Vetiver Grass for Slope Repair </h2>
         <ul className='dot2'>
-            <li className=" mb-3 ml-5">Resilient Slopes Founders established the design and construction protocols through extensive Academic Research. It has a robust design technics based on field performance data.</li>
-            <li className=" mb-3 ml-5">Sustainable Solutions to repair Shallow Slope failure.</li>
-            <li className=" mb-3 ml-5">It allows using the in-situ soils to repair the slopes and requires minimal earthwork.</li>
-            <li className=" mb-3 ml-5">It cut down the repair cost from 50 to 70% comparing traditional repair methods.</li>
-            <li className=" mb-3 ml-5">A single RPP can be installed in less than 5 minutes. An Entire slope can be repaired less than a week.</li>
+ <li className=" mb-3 ml-5">Vetiver grass root has high strength which increases the shear strength of the soil like traditional
+reinforcing element such as a ground anchor.</li>
+
+ <li className=" mb-3 ml-5">Vetiver grassroots works as a vertical drain, which draws water from the soil through evapotranspiration
+and reduce and restricts the development of the perched water zone.</li>
+
+ <li className=" mb-3 ml-5">The fibrous vetiver grassroots are distributed within the soil, which help lower the shrinkage crack
+propagation, reduce the softening actions, and even lower the depth of active zone (depth of seasonal
+moisture variation).</li>
+
+ <li className=" mb-3 ml-5">The vetiver grass has no adverse effect on the environment, ensure cost-effectiveness as well as improve
+the safety of the infrastructures.</li>
         </ul>
 
     </div>
