@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Title from '../components/Title/Title';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Image from "./.././../public/image/4.jpg"
 const VetiverGrass = () => {
     useEffect(() => {
         AOS.init(); 
@@ -62,7 +63,7 @@ allowfullscreen
 <div data-aos="zoom-in-down" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1800" className="w-full sm:w-1/2 p-4">
 <div className="ms-5 my-5 max-w-full">
       <img
-        src="https://i.ibb.co/8XDQnwM/IMG-2459.jpg"
+        src={Image}
         alt="VetiverGrass"
         className="w-full h-auto"
       />

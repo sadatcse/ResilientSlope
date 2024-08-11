@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Title from '../components/Title/Title';
 import AOS from 'aos';
-
+import Image1 from "./.././../public/image/1.jpg"
+import Image2 from "./.././../public/image/2.png"
+import Image3 from "./.././../public/image/3.jpg"
 const Services= () => {
     useEffect(() => {
         AOS.init(); 
@@ -17,7 +19,7 @@ const Services= () => {
             "Erosion Control of Slopes using Vetiver Grass",
             "Stabilization of Marginal/Steep Slopes using Recycled Plastic Pin or Vetiver Grass"
           ],
-          image_url: "https://i.ibb.co/4WBNBMX/20201216-142724.jpg"
+          image_url: Image1
         },
         {
             title: "Design and Analysis",
@@ -28,7 +30,7 @@ const Services= () => {
               "Value Engineering and Prepare Alternate Design",
               "Failure Investigation and Back Analysis using FEM"
             ],
-            image_url: "https://i.ibb.co/G0d8vdX/analysis.png"
+            image_url: Image2
           },
           {
             title: "Non-Destructive and Geophysical Testing",
@@ -42,7 +44,7 @@ const Services= () => {
              "LiDAR Imaging",
             "Drone Imaging"
             ],
-            image_url: "https://i.ibb.co/t4Lqw6M/Website.jpg"
+            image_url: Image3
           }
       ];
 
