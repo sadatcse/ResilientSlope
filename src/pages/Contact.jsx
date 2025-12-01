@@ -56,7 +56,7 @@ const Contact = () => {
     <title>Contact Us | Resilient Slope LLC</title>
     <meta name="description" content="Get in touch with us through our contact form or contact details." />
 </Helmet>
-            <Title title="Contact Us" />
+            <Title title="Contact Us"/>
             <div className=''>
             <div className="container mx-auto mt-10">
 
