@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-
+import banner from "../../../public/banner2.jpg"
 const Banner = () => {
     // 1. Data and Constants
-    const IMAGE_URL = "https://i.ibb.co/WvFQ3Vh/banner2.jpg";
+    const IMAGE_URL = "https://teaxo-bd.s3.ap-southeast-1.amazonaws.com/banner2.jpg";
     const TITLE = "Resilient Slope";
     const SUBTITLE = "SUSTAINABLE AND CLIMATE RESILIENT SLOPE STABILIZATION";
 
