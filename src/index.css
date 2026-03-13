@@ -7,7 +7,7 @@
 |--------------------------------------------------------------------------
 */
 #root {
-  @apply max-w-[1660px] mx-auto border border-gray-700;
+  @apply max-w-[1660px] mx-auto ;
 }
 
 

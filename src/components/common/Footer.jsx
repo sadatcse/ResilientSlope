@@ -53,10 +53,10 @@ const Footer = () => {
                     
                     {/* 1. Copyright and Logo (Left Section) */}
                     <aside className="flex items-center space-x-3 order-2 md:order-1">
-                        <img src={Logo} className="w-8 h-8 object-contain" alt="Logo Icon" />
+                        <img src={Logo} className="w-16 h-16 object-contain" alt="Logo Icon" />
                         <div className="flex items-center text-sm font-medium text-gray-700 dark:text-gray-300">
                             <Copyright className="h-4 w-4 mr-1" />
-                            <p>{yearRange} .Resilient Slope LLC. All rights reserved.</p>
+                            <p>{yearRange} .Data IT. All rights reserved.</p>
                         </div>
                     </aside>
                     
